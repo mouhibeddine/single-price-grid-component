@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;1,300;1,600&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'karla', sans-serif;
+
+}
+
+.container{
+    height: 476px;
+    width: 635px;
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+    box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 11%);
+    border-radius: 15px;
+    border: none;
+}
+.join{
+    
+    grid-area: 1/1/2/3;
+    background-color: white;
+    padding: 20px 1px 9px 37px;
+    border-radius: 15px;
+}
+     .join_title{
+        color: hsl(179, 62%, 43%);
+        font-size: 22px;
+        margin-bottom: 32px;
+        
+     }
+     .join h2 {
+        color: hsl(71, 73%, 54%);
+        font-size: 19px;
+        font-weight:500;
+        opacity: ;
+     }
+     .join p {
+        color:hsl(218, 22%, 67%) ;
+        font-size: 16.5px;
+        line-height: 27px;
+     }
+
+
+.monthly-sub {
+    
+    background-color: hsl(179, 62%, 43%);
+    padding: 20px 0px 9px 37px;
+    border-radius: 0px 0 0 15px;
+}
+     .msub_title {
+        color: white;
+        font-size:18px;
+        letter-spacing: 1px;
+        font-weight:500;
+     }
+     .price {
+        color: white;
+        font-size: 35px;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 6px;
+        display: flex;
+        align-items: center;
+     }
+     .price::after{
+        content: "per month";
+        font-size: 18px;
+        opacity: 0.6;
+        margin-left: 11px;
+        font-weight: 100;
+     }
+     .fa_text {
+        color: white;
+        font-size: 15px;
+        font-weight:400;
+        margin-top: 0;
+        margin-bottom: 25px;
+        opacity: 0.75;
+        
+
+     }
+     .signing{
+        height: 50px;
+        width: 240px;
+        background-color: hsl(71, 73%, 54%);
+        border-radius: 5px;
+        border: none;
+        box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 10%);
+        cursor: pointer;
+     }
+     label{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'karla', sans-serif;
+     }
+
+
+
+.why-us{
+    
+    background-color: hsl(179, 62%, 43%,0.8);
+    padding: 20px 0px 9px 37px;
+    border-radius: 0px 0 15px 0;
+}
+     .whyus-title{
+        color: white;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight:500;
+     }
+     .details{
+        color: white;
+        font-size: 14px;
+        margin-top: 0px;
+        opacity: 0.6;
+        line-height: 20px;
+        font-weight: 100;
+     }
+     
